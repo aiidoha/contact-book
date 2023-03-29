@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Contact Book</h1>
+      <form class="book">
+        <input
+          type="text"
+          id="imageUrl"
+          name="imageUrl"
+          placeholder="Image URL"
+        />
+        <input type="text" id="name" name="name" placeholder="Name" />
+
+        <input type="text" id="phone" name="phone" placeholder="Phone number" />
+        <button type="submit">Add contact</button>
+      </form>
+      <ul></ul>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+      <nav class="modal_nav">
+        <h1>Edit your info</h1>
+      </nav>
+      <hr />
+      <section class="modal_body">
+        <input type="text" id="nameEdit" />
+        <input type="text" id="urlEdit" />
+        <input type="text" id="phoneEdit" />
+        <div class="modal_body_btn">
+          <button class="btnSave1" id="btnSave">Save</button>
+          <button class="btnClose1" id="btnClose">Close</button>
+        </div>
+      </section>
+    </div>
+
+    <img class="img" src="./photo/Layer 3.png" alt="Here should be your photo" />
+    <script src="./js/main.js"></script>
+  </body>
+</html>
